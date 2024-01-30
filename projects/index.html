@@ -4,17 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127546484-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ23324EXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-127546484-1');
-  </script>
+  gtag('config', 'G-FQ23324EXX');
+</script>
 
   <link rel="stylesheet"
         href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -63,14 +61,15 @@
 </nav>
   
 <h1 class="display-3">Other Projects</h1>
+
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <div class="card-body">
-      <h5 class="card-title">Fan Dynamometer Project</h5>
-      <p class="card-text">For my senior design project, I worked with Milwaukee Tool, a renowned power tool company in Milwaukee, Wisconsin, on the Fan Dynamometer project. This project was focused on creating a fan dynamometer to test the performance of AC motors used in their tools. A dynamometer is essential for measuring RPM and torque, calculating instantaneous power. Our testing procedure involved the use of National Instruments Flex Logger software, interfaced with hardware sensors attached to the motor. These sensors allowed us to accurately measure torque in Newton-meters. We employed a Design of Experiments (DOE) approach to systematically test various parameters that could affect torque. Through this method, we identified key factors such as fan size, RPM, and the number of fans, which significantly impacted the torque output. Additional variables like inlet and outlet area, fan style, and fan direction were also explored to understand their effects on performance. This comprehensive testing approach enabled us to optimize the dynamometer design and achieve substantial results in measuring and improving motor performance.</p>
-      </div>
       <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Fan Dynamometer Project</h5>
+          <p class="card-text">For my senior design project, I worked with Milwaukee Tool, a renowned power tool company in Milwaukee, Wisconsin, on the Fan Dynamometer project. This project was focused on creating a fan dynamometer to test the performance of AC motors used in their tools. A dynamometer is essential for measuring RPM and torque, calculating instantaneous power. Our testing procedure involved the use of National Instruments Flex Logger software, interfaced with hardware sensors attached to the motor. These sensors allowed us to accurately measure torque in Newton-meters. We employed a Design of Experiments (DOE) approach to systematically test various parameters that could affect torque. Through this method, we identified key factors such as fan size, RPM, and the number of fans, which significantly impacted the torque output. Additional variables like inlet and outlet area, fan style, and fan direction were also explored to understand their effects on performance. This comprehensive testing approach enabled us to optimize the dynamometer design and achieve substantial results in measuring and improving motor performance.</p>
+        </div>
         <div class="row no-gutters">
           <div class="col-md-6">
             <img class="card-img-top" src="/images/projects/dyno1.JPG" alt="dyno">
@@ -86,20 +85,19 @@
       </div>
     </div>
   </div>
-</div>  
-<div class="row justify-content-md-center">
-  <div class="col col-lg-8 card">
-    <div class="card-body">
-      <h5 class="card-title">Audio Reactive LED Strip</h5>
-      <p class="card-text">As a personal project, I soldered and mounted an addressable LED strip and diffuser on my ceiling. I then programmed a Raspberry Pi to construct a 1-D audio visualization using a live recording from a conference mic. The result is an LED strip that dances to live music!</p>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <blockquote class="imgur-embed-pub" lang="en" data-id="a/j98JtaB" data-context="false" ><a href="//imgur.com/a/j98JtaB">Audio Reactive LED Strip</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+  <div class="row">
+    <div class="col-lg-8 card">
+      <div class="card-body">
+        <h5 class="card-title">Audio Reactive LED Strip</h5>
+        <p class="card-text">As a personal project, I soldered and mounted an addressable LED strip and diffuser on my ceiling. I then programmed a Raspberry Pi to construct a 1-D audio visualization using a live recording from a conference mic. The result is an LED strip that dances to live music!</p>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <blockquote class="imgur-embed-pub" lang="en" data-id="a/j98JtaB" data-context="false" ><a href="//imgur.com/a/j98JtaB">Audio Reactive LED Strip</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+      </div>
     </div>
   </div>
-</div>
-<br>
-<div class="container">
+
   <div class="row">
     <div class="col-md-8">
       <div class="card">
@@ -136,10 +134,8 @@
       </div>
     </div>
   </div>
-  <hr>
-</div>
 
-<div class="row">
+  <div class="row">
     <div class="col-md-4">
       <div class="card">
         <img class="card-img-top" src="/resources/projects/bird.JPG" alt="bird"/>
@@ -150,6 +146,8 @@
       </div>
     </div>
   </div>
+</div>
+
 
 <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
